@@ -86,7 +86,9 @@
 			<div>
 				<h3 class="text-white">Learn about coffee </h3>
 				<h3 class="text-white">Make better coffee</h3>
-				<a href="#" class="btn btn-outline-light mt-3">Coffe Menu</a>
+				<a href="#" class="btn btn-outline-light mt-3"
+					style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #ffffff">Coffe
+					Menu</a>
 			</div>
 		</div>
 	</section>
@@ -106,12 +108,6 @@
 					<h6>Youtube Video</h6>
 					<h1>What is coffee? <br>
 						How humanity got hooked on coffee - Jonathan Morris</h1>
-					<p><span>We are here to listen from you deliver exellence</span></p>
-					{{-- <p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim.
-					</p> --}}
-					<img class="img-fluid" src="{{ asset('assets/img/signature.png') }}" alt="">
 				</div>
 			</div>
 		</div>
@@ -125,7 +121,9 @@
 				<div class="menu-content pb-60 col-lg-10">
 					<div class="title text-center">
 						<h1 class="mb-10">Explore the Four Main Coffee Bean Varieties</h1>
-						<p>Each type brings its own flavor, aroma, and experience.</p>
+						<p
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
+							Each type brings its own flavor, aroma, and experience.</p>
 					</div>
 				</div>
 			</div>
@@ -137,7 +135,8 @@
 						<div class="title-div d-flex justify-content-between">
 							<h4>Arabica</h4>
 						</div>
-						<p>
+						<p
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
 							Arabica is the most popular coffee bean, known for its smooth, mild flavor and aromatic
 							profile.
 							Grown at higher altitudes, it contains less caffeine and is often considered of higher
@@ -153,7 +152,8 @@
 						<div class="title-div d-flex justify-content-between">
 							<h4>Robusta</h4>
 						</div>
-						<p>
+						<p
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
 							Robusta beans are stronger and more bitter, with a higher caffeine content and earthy
 							flavor.
 							Commonly used in instant coffee and espresso blends, they grow well at lower altitudes and
@@ -169,7 +169,8 @@
 						<div class="title-div d-flex justify-content-between">
 							<h4>Liberica</h4>
 						</div>
-						<p>
+						<p
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
 							Liberica beans are rare and produce a unique, bold cup with floral and woody notes. They are
 							grown primarily in Southeast Asia and are known for their large bean size and strong, smoky
 							aroma that sets them apart from other varieties.
@@ -183,7 +184,8 @@
 						<div class="title-div d-flex justify-content-between">
 							<h4>Excelsa</h4>
 						</div>
-						<p>
+						<p
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
 							Excelsa is a distinctive variety often used to add depth to coffee blends. It has a tart,
 							fruity
 							flavor and is grown mainly in Southeast Asia. Though classified under Liberica, it offers a
@@ -205,7 +207,9 @@
 				<div class="menu-content pb-60 col-lg-10">
 					<div class="title text-center">
 						<h1 class="mb-10">What kind of Coffee we serve for you</h1>
-						<p>Who are in extremely love with eco friendly system.</p>
+						<p
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
+							Who are in extremely love with eco friendly system.</p>
 					</div>
 				</div>
 			</div>
@@ -247,7 +251,9 @@
 				<div class="menu-content pb-60 col-lg-10">
 					<div class="title text-center">
 						<h1 class="mb-10">Their Favorite Coffee, Their Real Stories</h1>
-						<p>Hear what our customers say about the unique coffee types we offer.</p>
+						<p
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
+							Hear what our customers say about the unique coffee types we offer.</p>
 					</div>
 				</div>
 			</div>
@@ -264,7 +270,8 @@
 								<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
 								<i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i>
 							</div>
-							<p>
+							<p
+								style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
 								“Arabica from this shop is smooth, rich, and aromatic. It's my go-to for relaxing
 								mornings. The system helped me learn its origin and flavor profile — makes the
 								experience special every time.”
@@ -284,7 +291,8 @@
 								<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
 								<i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i>
 							</div>
-							<p>
+							<p
+								style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
 								“Robusta gives me the strong kick I need during work. Thanks to the system’s
 								descriptions, I picked the perfect bold brew. I never knew coffee could be this
 								empowering.”
@@ -304,7 +312,8 @@
 								<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
 								<i class="fa fa-star"></i> <i class="fa fa-star"></i>
 							</div>
-							<p>
+							<p
+								style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
 								“Liberica’s fruity and woody taste blew my mind. I wouldn’t have discovered it without
 								this platform. It’s not just a coffee system — it’s a journey.”
 							</p>
@@ -323,7 +332,8 @@
 								<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i>
 								<i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i>
 							</div>
-							<p>
+							<p
+								style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
 								“Excelsa’s tart and dark flavors intrigued me. The system guided me perfectly to
 								discover
 								this rare gem. It’s now my favorite after-dinner brew.”
@@ -347,7 +357,9 @@
 				<div class="menu-content pb-60 col-lg-10">
 					<div class="title text-center">
 						<h1 class="mb-10">Our Top Coffee Recommendations</h1>
-						<p>Discover the two most popular coffee types loved worldwide</p>
+						<p
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
+							Discover the two most popular coffee types loved worldwide</p>
 					</div>
 				</div>
 			</div>
@@ -360,7 +372,8 @@
 					</div>
 					<div class="details p-4">
 						<h4 class="mb-3">Arabica Coffee</h4>
-						<p class="mb-4">
+						<p class="mb-4"
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
 							The world's most popular coffee, making up 60-70% of global production. Arabica beans are
 							prized for their smooth, complex flavor profile with notes of fruit and sugar, and higher
 							acidity.
@@ -368,15 +381,21 @@
 						<div class="features">
 							<div class="d-flex align-items-center mb-2">
 								<span class="lnr lnr-leaf mr-2"></span>
-								<span>Origin: Ethiopian highlands</span>
+								<span
+									style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">Origin:
+									Ethiopian highlands</span>
 							</div>
 							<div class="d-flex align-items-center mb-2">
 								<span class="lnr lnr-thermometer mr-2"></span>
-								<span>Grows best at 900-2,000m altitude</span>
+								<span
+									style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">Grows
+									best at 900-2,000m altitude</span>
 							</div>
 							<div class="d-flex align-items-center">
 								<span class="lnr lnr-coffee-cup mr-2"></span>
-								<span>Caffeine content: 1.2-1.5%</span>
+								<span
+									style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">Caffeine
+									content: 1.2-1.5%</span>
 							</div>
 						</div>
 					</div>
@@ -389,7 +408,8 @@
 					</div>
 					<div class="details p-4">
 						<h4 class="mb-3">Robusta Coffee</h4>
-						<p class="mb-4">
+						<p class="mb-4"
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
 							Known for its strong, bold flavor and higher caffeine content. Robusta beans are hardier
 							plants that produce a more bitter coffee, often used in espresso blends for that perfect
 							crema.
@@ -397,15 +417,21 @@
 						<div class="features">
 							<div class="d-flex align-items-center mb-2">
 								<span class="lnr lnr-leaf mr-2"></span>
-								<span>Origin: Central and West Africa</span>
+								<span
+									style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">Origin:
+									Central and West Africa</span>
 							</div>
 							<div class="d-flex align-items-center mb-2">
 								<span class="lnr lnr-thermometer mr-2"></span>
-								<span>Grows at 0-900m altitude</span>
+								<span
+									style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">Grows
+									at 0-900m altitude</span>
 							</div>
 							<div class="d-flex align-items-center">
 								<span class="lnr lnr-coffee-cup mr-2"></span>
-								<span>Caffeine content: 2.2-2.7%</span>
+								<span
+									style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">Caffeine
+									content: 2.2-2.7%</span>
 							</div>
 						</div>
 					</div>
@@ -427,9 +453,9 @@
 				<div class="col-lg-5 col-md-6 col-sm-6">
 					<div class="single-footer-widget">
 						<h6>About Us</h6>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore dolore magna aliqua.
+						<p
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #ffffff">
+							Brewing the finest coffee with passion and care for every cup.
 						</p>
 						<p class="footer-text">
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -444,14 +470,17 @@
 				<div class="col-lg-5  col-md-6 col-sm-6">
 					<div class="single-footer-widget">
 						<h6>Newsletter</h6>
-						<p>Stay update with our latest</p>
+						<p
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #ffffff">
+							Stay update with our latest</p>
 						<div class="" id="mc_embed_signup">
 							<form target="_blank" novalidate="true"
 								action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
 								method="get" class="form-inline">
 								<input class="form-control" name="EMAIL" placeholder="Enter Email"
 									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
-									required="" type="email">
+									required="" type="email"
+									style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #ffffff">
 								<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right"
 										aria-hidden="true"></i></button>
 								<div style="position: absolute; left: -5000px;">
@@ -467,7 +496,9 @@
 				<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 					<div class="single-footer-widget">
 						<h6>Follow Us</h6>
-						<p>Let us be social</p>
+						<p
+							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #ffffff">
+							Let us be social</p>
 						<div class="footer-social d-flex align-items-center">
 							<a href="#"><i class="fa fa-facebook"></i></a>
 							<a href="#"><i class="fa fa-twitter"></i></a>
