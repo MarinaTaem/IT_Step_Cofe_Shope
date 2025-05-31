@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -6,6 +6,26 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
 }
+
+@import "./linearicons.css";
+@import "./bootstrap.css";
+@import "./card.css";
+@import "./magnific-popup.css";
+@import "./nice-select.css";
+@import "./nice-select.css";
+@import "./magnific-popup.css";
+@import "./jquerysctipttop.css";
+@import "./main.css";
+
+@import "./animate.min.css";
+@import "./owl.carousel.css";
+@import "./font-awesome.min.css";
+@import "./jquery.DonutWidget.min.css";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */

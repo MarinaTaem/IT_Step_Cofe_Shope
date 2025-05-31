@@ -1,0 +1,218 @@
+.card-design {
+    background: #232427;
+    padding-bottom: 40px;
+}
+
+.card-design h2 {
+    padding: 20px;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
+
+.card-container .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 40px 0;
+    gap: 30px;
+}
+
+.card-container .container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-container .container .card {
+    position: relative;
+    min-width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.card-container .container .card .box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2a2b2f;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card-container .container .card .box .content {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-container .container .card .box .content h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    z-index: 1;
+    transition: 0.5s;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.card-container .container .card .box .content p {
+    padding-left: 10px;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    transition: 0.5s;
+    flex-grow: 1;
+}
+
+.card-container .container .card .box .content a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #2196f3;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin: 10px 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.card-container .container .card .box .content a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    background: #fff;
+    color: #000;
+}
+
+.card-container .container .card .box .content .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.card-container .container .card .box .content .modal .dailog-content {
+    background: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 700px;
+    max-width: 90%;
+    position: relative;
+}
+
+.card-container
+    .container
+    .card
+    .box
+    .content
+    .modal
+    .dailog-content
+    .dailog-span {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.card-container .container .card .box .content .modal .dailog-content h4 {
+    color: #000;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.card-container .container .card .box .content .modal .dailog-content h3 {
+    font-size: 1.2rem;
+    color: #000;
+    margin: 10px 0 5px;
+}
+
+.card-container .container .card .box .content .modal .dailog-content p {
+    color: #000;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.rating .fa-star {
+    font-size: 20px;
+    color: #ccc;
+    margin: 0 2px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.rating .fa-star.checked {
+    color: #ff9800;
+}
+
+.rating .fa-star:hover {
+    color: #ffb84d;
+}
+
+.comment-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.submit-comment-btn {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.comments-container p {
+    color: #000;
+    margin: 5px 0;
+}
+
+.comments-container .font-medium {
+    color: #000;
+    font-weight: 500;
+}

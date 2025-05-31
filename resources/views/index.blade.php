@@ -18,10 +18,8 @@
 	<title>Coffee</title>
 
 	<!-- In your <head> -->
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:700&display=swap" rel="stylesheet">
-	<!--
-			CSS
-			============================================= -->
+	{{--
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:700&display=swap" rel="stylesheet"> --}}
 
 	@vite(['resources/css/app.css',
 	'resources/js/app.js',
@@ -35,60 +33,42 @@
 	])
 </head>
 
+<style>
+	* {
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.text-white {
+		font-family: 'Open Sans', sans-serif;
+		color: #ffffff !important;
+	}
+
+	.text-banner {
+		margin-left: 80px;
+		font-size: 5rem;
+	}
+
+	.text-50 {
+		font-size: 60px;
+	}
+</style>
+
 <body>
-
-	<header id="header" ">
-		<div class=" header-top">
-		<div class="container">
-			<div class="row justify-content-end">
-				<!-- Optional top-right content here -->
-			</div>
-		</div>
-		<div class="container">
-			<div class="row align-items-center justify-content-between d-flex">
-				<div id="logo">
-					<a href="{{ route('home') }}">
-						<img src="{{ asset('assets/img/logo.png') }}" alt="Logo" title="" />
-					</a>
-				</div>
-				<nav id="nav-menu-container">
-					<ul class="nav-menu">
-						<li class="menu-active"><a href="{{ route('home') }}">Home</a></li>
-						<li><a href="#about">Coffee</a></li>
-						<li><a href="{{ route('about_us')}}">About Us></li>
-						<li><a href="#blog"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-									viewBox="0 0 24 24">
-									<path fill="currentColor" fill-rule="evenodd"
-										d="M8 7a4 4 0 1 1 8 0a4 4 0 0 1-8 0m0 6a5 5 0 0 0-5 5a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3a5 5 0 0 0-5-5z"
-										clip-rule="evenodd" />
-								</svg></a></li>
-
-						<ul>
-							<li><a href="{{ route('generic') }}">Generic</a></li>
-							<li><a href="{{ route('elements') }}">Elements</a></li>
-						</ul>
-						</li>
-					</ul>
-				</nav><!-- #nav-menu-container -->
-			</div>
-		</div>
-		</div>
-	</header><!-- #header -->
-
+	{{-- Header --}}
+	@include('layouts.nav')
 
 	<!-- Start Banner Area -->
-	<section class="banner-area text-white" style="background-image: url({{ asset('assets/img/header-bg.jpg') }}); 
+	<section class="banner-area" style="background-image: url({{ asset('assets/img/header-bg.jpg') }}); 
            background-size: cover; 
            background-position: center; 
            height: 100vh;">
 
-		<div class="container h-100 d-flex align-items-center justify-content-center text-center">
-			<div>
-				<h3 class="text-white">Learn about coffee </h3>
+		<div class="container h-100 d-flex align-items-center">
+			<div class="text-banner">
+				<h3 class="text-white text-50">Learn about coffee </h3>
 				<h3 class="text-white">Make better coffee</h3>
-				<a href="#" class="btn btn-outline-light mt-3"
-					style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #ffffff">Coffe
-					Menu</a>
+				<a class="btn btn-outline-light mt-3" href="{{ route('coffee')}}">
+					Explore</a>
 			</div>
 		</div>
 	</section>
@@ -135,14 +115,9 @@
 						<div class="title-div d-flex justify-content-between">
 							<h4>Arabica</h4>
 						</div>
-						<p
-							style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #2c2c2c">
-							Arabica is the most popular coffee bean, known for its smooth, mild flavor and aromatic
-							profile.
-							Grown at higher altitudes, it contains less caffeine and is often considered of higher
-							quality,
-							making it ideal for specialty coffee lovers.
-						</p>
+						<p> Arabica is the most popular coffee bean, known for its smooth, mild flavor and aromatic
+							profile. Grown at higher altitudes, it contains less caffeine and is often considered of
+							higher quality, making it ideal for specialty coffee lovers. </p>
 					</div>
 				</div>
 
